@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math Magicians - React Project
 
-## Available Scripts
+> The "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-In the project directory, you can run:
+* Make simple calculations.
+* Read a random math-related quote. By building this application, you will learn how to use React.
 
-### `yarn start`
+This project's goal is to teach and make sure that we know how to create an App with React and use/understand the concept of Single Page Apps.[Find project specifications here](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/sneak_peek.md)
+      
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align="center">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[![View Code](https://img.shields.io/badge/View%20-Code-green)](https://github.com/errea/maths-magician-react)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/errea/maths-magician-react/issues)
+[![GitHub Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/errea/maths-magician-react/pull/2)
 
-### `yarn test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📝 Contents
 
-### `yarn build`
+<p align="center">
+<a href="#with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#gs">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#author">Author</a>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+># [Description]
+>The leaderboard website displays scores submitted by different players. It also allows you to submit your score. Project 1: basic page structure.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔧 Built with<a name = "with"></a>
 
-### `yarn eject`
+- JavaScript
+- React
+- NPM
+- Class based Components 
+- Virtual DOM
+- [Webpack config](hhttps://webpack.js.org/guides/getting-started/)
+- ES6 Modules 
+- [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/gitflow.md)
+  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![screenshot](./src/img/screen-shot.png)
+## Getting Started <a name = "gs"></a>
+> To get a local copy up and running follow these simple example steps.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+  <summary>Get instructions</summary>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+$ cd <folder>
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+~~~bash
+$ git clone https://github.com/errea/maths-magician-react.git
+$ cd maths-magician-react folder
+~~~
 
-## Learn More
+Run `npm Install` to install the node modules and webpacker.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run `npm start`  opens on `http://localhost:8080/` in your browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Run `npm run build` to build the bundler.
 
-### Code Splitting
+## Set up
+* Open your terminal and locate the folder you want to clone the repository and follow the steps above to install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+</details>
 
-### Analyzing the Bundle Size
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    WEBPACK-TODO_LIST
+    └── node_modules
+    └── .github\workflows
+        └── linters.yml
+    └── src
+        └── /img
+      └── index.html
+      └── index.js   
+      └── components
+      └── componentsStyles 
+      └── style.css
+    └── .eslintrc.json
+    └── .gitignore
+    └── .hintrc
+    └──.stylelintrc.json
+    └── MIT.md
+    └── package-lock.json
+    └── package.json
+    └──README.md
 
-### Making a Progressive Web App
+## ✒️  Authors <a name = "author"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+👤 **Eri**
 
-### Advanced Configuration
+- Github: [@errea](https://github.com/errea)
+- Twitter: [@Erreakay](https://github.com/errea)
+- Linkedin: [Eri Okereafor](https://www.linkedin.com/in/eri-ngozi-okereafor/)
+  
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions, issues and feature requests are welcome!
 
-### Deployment
+Feel free to check the [issues page](https://github.com/errea/leader-board-project/issues)
+## 👍 Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Microverse: [@microverse](https://www.microverse.org/)
 
-### `yarn build` fails to minify
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+
