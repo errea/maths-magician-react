@@ -1,7 +1,5 @@
-import React from 'react';
-import Button from '../src/components/button-component';
+/* eslint-disable no-else-return */
 import operate from './operate';
-
 
 function isNumber(item) {
   return !!item.match(/[0-9]+/);
@@ -16,12 +14,12 @@ function isNumber(item) {
  *   next:String       the next number to be operated on with the total
  *   operation:String  +, -, etc.
  */
- export default function calculate(obj, buttonName) {
+export default function calculate(obj, buttonName) {
   if (buttonName === 'AC') {
     return {
-      total: null,
-      next: null,
-      operation: null,
+      total: '',
+      next: '',
+      operation: '',
     };
   }
 
@@ -54,7 +52,7 @@ function isNumber(item) {
       if (obj.next.includes('.')) {
         return {};
       }
-      return { next: obj.next + '.' };
+      return { next: `${obj.next}.` };
     }
     if (obj.operation) {
       return { next: '0.' };
@@ -63,7 +61,7 @@ function isNumber(item) {
       if (obj.total.includes('.')) {
         return {};
       }
-      return { total: obj.total + '.' };
+      return { total: `${obj.total}.` };
     }
     return { total: '0.' };
   }
@@ -101,6 +99,11 @@ function isNumber(item) {
 
   // User pressed an operation button and there is an existing operation
   if (obj.operation) {
+    if (obj.total && !(obj.next)) {
+      return {
+        operation: buttonName,
+      };
+    }
     return {
       total: operate(obj.total, obj.next, obj.operation),
       next: null,
@@ -122,35 +125,3 @@ function isNumber(item) {
     operation: buttonName,
   };
 }
-
-
-
-
-
-
-
-
-
-
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      result: 0,
-    };
-  }
-
-  render() {
-    const { result } = this.state;
-    return (
-      <div className="calculator">
-        <div className="resultShow">
-          <p className="resultNumber">{result}</p>
-        </div>
-        <Button />
-      </div>
-    );
-  }
-}
-
-export default Calculator;
