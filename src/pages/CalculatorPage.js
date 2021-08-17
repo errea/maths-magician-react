@@ -8,7 +8,7 @@ const CalculatorPage = () => (
   <div className={style.div}>
     <div className={style.titleDiv}>
       <h2 className={style.title}>
-        Let's do some Math
+        Let's solve some Arithmetic
       </h2>
     </div>
     <div className={style.calculatorDiv}>

@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(217, 239, 255);
+  background-color: rgb(6, 36, 58);
   margin: 0;
   padding: 0;
 }
@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .appDiv {
   width: 100%;
 }

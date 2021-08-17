@@ -27,7 +27,8 @@ This project's goal is to teach and make sure that we know how to create an App 
 </p>
 
 ># [Description]
->The leaderboard website displays scores submitted by different players. It also allows you to submit your score. Project 1: basic page structure.
+>In this project, you will create a full website for the Math magicians app, consisting of several pages and using the components you already created.
+
 
 
 ## 🔧 Built with<a name = "with"></a>
@@ -35,14 +36,17 @@ This project's goal is to teach and make sure that we know how to create an App 
 - JavaScript
 - React
 - NPM
-- Class based Components 
+- Functional based Components with React Hooks 
 - Virtual DOM
 - [Webpack config](hhttps://webpack.js.org/guides/getting-started/)
 - ES6 Modules 
 - [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/gitflow.md)
+- Use [React Router](https://reactrouter.com/).
+- Use styles in a React app. [CSS modules](https://github.com/css-modules/css-modules).
+
   
 
-![screenshot](./src/img/screen-shot.png)
+![screenshot](./src/img/screen-shot2.png)
 ## Getting Started <a name = "gs"></a>
 > To get a local copy up and running follow these simple example steps.
 
@@ -58,11 +62,11 @@ $ git clone https://github.com/errea/maths-magician-react.git
 $ cd maths-magician-react folder
 ~~~
 
-Run `npm Install` to install the node modules and webpacker.
+Run `yarn Install` to install the node modules and webpacker.
 
-Run `npm start`  opens on `http://localhost:8080/` in your browser.
+Run `yarn build` to build the bundler.
 
-Run `npm run build` to build the bundler.
+Run `yarn start`  opens on `http://localhost:8080/` in your browser.
 
 ## Set up
 * Open your terminal and locate the folder you want to clone the repository and follow the steps above to install
@@ -71,7 +75,7 @@ Run `npm run build` to build the bundler.
 
 ## Project Structure
 
-    WEBPACK-TODO_LIST
+    maths-magician-react
     └── node_modules
     └── .github\workflows
         └── linters.yml
@@ -103,7 +107,7 @@ Run `npm run build` to build the bundler.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/errea/leader-board-project/issues)
+Feel free to check the [issues page](https://github.com/errea/maths-magician-react/issues)
 ## 👍 Show your support
 
 - Microverse: [@microverse](https://www.microverse.org/)

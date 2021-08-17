@@ -6,7 +6,7 @@ const NavBar = () => (
   <nav className={style.nav}>
     <div className={style.titleDiv}>
       <h1 className={style.title}>
-        Math Magicians
+        Maths Magic
       </h1>
     </div>
     <div className={style.linksDiv}>

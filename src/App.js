@@ -6,8 +6,7 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/calculator';
-import './componentsStyles/calculatorStyles.css';
+import './components/CalculatorGrid.module.css';
 import NavBar from './components/NavBar';
 import CalculatorPage from './pages/CalculatorPage';
 import QuotesPage from './pages/QuotesPage';
