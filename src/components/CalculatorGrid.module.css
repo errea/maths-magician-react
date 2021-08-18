@@ -1,7 +1,7 @@
-.calculator-container {
+.calculator_container {
   width: 500px;
   display: grid;
-  box-shadow: 15px 15px 15px 5px rgb(65, 65, 65);
+  box-shadow: 15px 15px 15px 5px rgb(15, 15, 15);
   grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(6, 80px);
   grid-template-areas:
@@ -14,7 +14,7 @@
     "zero zero dot equal";
 }
 
-.resultShow-container {
+.resultShow_container {
   grid-area: result;
   background-color: rgba(128, 128, 128, 0.753);
   color: rgb(255, 255, 255);
@@ -22,7 +22,7 @@
   font-size: 40px;
 }
 
-.resultNumber-display {
+.resultNumber_display {
   margin: 15px;
 }
 
