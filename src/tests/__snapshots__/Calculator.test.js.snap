@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="calculator_container"
+>
+  <div
+    className="resultShow_container"
+  >
+    <p
+      className="resultNumber_display"
+    >
+      
+       
+      
+       
+      
+    </p>
+  </div>
+  <button
+    className="number0 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="number1 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="number2 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="number3 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="number4 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="number5 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="number6 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="number7 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="number8 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="number9 numbers"
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="buttonAc symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="plusminus symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="percentage symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="plus symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="minus symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="divide symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="multiply symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="dot symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="equal symbols"
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;
