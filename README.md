@@ -73,6 +73,8 @@ Run `yarn start`  opens on `http://localhost:8080/` in your browser.
 
 </details>
 
+## [Live Preview](https://clever-stonebraker-b2ac63.netlify.app/calculator)
+
 ## Project Structure
 
     maths-magician-react
